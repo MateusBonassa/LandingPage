@@ -4,10 +4,10 @@ import { CheckCircle2  } from "lucide-react";
 
 export default function Work(){
     return(
-        <div className="mt-20">
+        <div className="mt-20" id="work">
             <h2 className='text-3xl sm:text-5xl lg:text-6xl text-center mt-6 px-3 py-2 tracking-wide '>
-                <span className='bg-gradient-to-r from-orange-300 to-orange-800 text-transparent bg-clip-text'>
-                    Sobre Nosso Trabalho
+                <span className='bg-gradient-to-r from-blue-300 to-blue-800 text-transparent bg-clip-text'>
+                    Sobre Nossos Serviços
                 </span>
             </h2>
             <div className='flex flex-wrap justify-center'>

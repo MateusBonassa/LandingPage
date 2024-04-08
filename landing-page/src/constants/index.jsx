@@ -14,13 +14,35 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Nosso Trabalho", href: "#" },
-  { label: "Preços", href: "#" },
-  { label: "Testemunhos", href: "#" },
-];
 
+import c1 from "../assets/clients-pictures/c1.png";
+import c2 from "../assets/clients-pictures/c2.png";
+import c3 from "../assets/clients-pictures/c3.png";
+import c4 from "../assets/clients-pictures/c4.png";
+import c5 from "../assets/clients-pictures/c5.png";
+import c6 from "../assets/clients-pictures/c6.png";
+import c7 from "../assets/clients-pictures/c7.png";
+import c8 from "../assets/clients-pictures/c8.png";
+import c9 from "../assets/clients-pictures/c9.png";
+
+export const navItems = [
+  { label: "Features", href: "#features" },
+  { label: "Nossos Serviços", href: "#work" },
+  { label: "Preços", href: "#pricing" },
+  { label: "Testemunhos", href: "#testimonials" },
+];
+export const clients = [
+  {img: c1, name:"Empresa A"},
+  {img: c2, name:"Empresa B"},
+  {img: c3, name:"Empresa C"},
+  {img: c4, name:"Empresa D"},
+  {img: c5, name:"Empresa E"},
+  {img: c6, name:"Empresa F"},
+  {img: c7, name:"Empresa G"},
+  {img: c8, name:"Empresa H"},
+  {img: c9, name:"Empresa I"},
+
+];
 export const testimonials = [
   {
     user: "João Silva",
@@ -101,24 +123,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "ACode merge made easy",
+    title: "Hospedagem Compartilhada",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    title: "Review code without worry",
+    title: "Hospedagem VPS (Servidor Virtual Privado)",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Servidores Dedicados",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    title: "Share work in minutes",
+    title: "Serviços de E-mail",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 

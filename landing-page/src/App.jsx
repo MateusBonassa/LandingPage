@@ -5,18 +5,21 @@ import Work from "./components/Work";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Footer from './components/Footer'
+import CarrosselClientes from './components/CarrosselClientes'
 export default function App() {
   return (
     <>
-    <Navbar/>
+     <Navbar/>
     <div className=" max-w-7xl mx-auto pt-20 px-7">
       <HeroSection/>
       <FeatureSection/>
       <Work/>
+      <CarrosselClientes/>
       <Pricing/>
-      <Testimonials/>
+      <Testimonials />
       <Footer/>
     </div>
+   
   
     </>
   )

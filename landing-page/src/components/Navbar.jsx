@@ -2,6 +2,7 @@ import logo from '../assets/logo.png';
 import {navItems} from '../constants';
 import {Menu , X} from 'lucide-react'
 import { useState } from 'react';
+
 export default function Navbar(){
     const [mobileDrawerOpen,setMobileDrawerOpen] = useState(false)
     const toggleNavbar = () =>{
@@ -26,7 +27,7 @@ export default function Navbar(){
                     
                     <div className="hidden lg:flex justify-center space-x-8 items-center">
                         <a href='#' className='py-2 px-3 border rounded-md '>Entrar</a>
-                        <a href='#' className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 border rounded-md'>
+                        <a href='#' className='bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 border rounded-md'>
                             Criar uma conta
                         </a>
                     </div>
@@ -48,7 +49,7 @@ export default function Navbar(){
                         </ul>    
                         <div className="flex space-x-6">
                             <a href='#' className='py-2 px-3 border rounded-md '>Entrar</a>
-                            <a href='#' className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 border rounded-md'>
+                            <a href='#' className='bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 border rounded-md'>
                                 Criar uma conta
                             </a>
                         </div>

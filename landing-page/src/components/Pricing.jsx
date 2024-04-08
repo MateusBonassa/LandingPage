@@ -3,7 +3,7 @@ import {pricingOptions} from "../constants";
 
 export default function Pricing(){
     return (
-        <div className="mt-20">
+        <div className="mt-20" id="pricing">
             <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wider">Preços</h2>
             <div className="flex flex-wrap">
                 {pricingOptions.map((option,index)=>(
@@ -11,7 +11,7 @@ export default function Pricing(){
                         <div className="p-10 border border-neutral-700 rounded-xl">
                             <p className="text-4xl mb-8">{option.title}
                             {option.title==="Pro" && 
-                            <span className="bg-gradient-to-r from-orange-500 to-red-400 
+                            <span className="bg-gradient-to-r from-blue-500 to-blue-800 
                             text-transparent bg-clip-text text-xl mb-4 ml-2">(Mais Popular)</span>}
                             </p>
                             <p className="mb-8">
@@ -27,7 +27,7 @@ export default function Pricing(){
                                 ))}
                             </ul>
                             <a href="#" className="inline-flex justify-center text-center items-center w-full p-5 mt-20 tracking-tight text-3xl
-                             hover:bg-orange-900 border border-orange-900 rounded-full transition duration-300">Começe Agora</a>
+                             hover:bg-blue-900 border border-blue-900 rounded-full transition duration-300">Começe Agora</a>
                         </div>
                     </div>
                 ))}
