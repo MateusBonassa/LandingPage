@@ -18,7 +18,7 @@ export default function CarrosselClientes(){
  
   return (
     <div >
-        <h1 className='text-center text-4xl sm:text-5xl lg:text-6xl mt-14'>Principais Parceiros</h1>
+        <h1 className='text-center text-4xl sm:text-5xl lg:text-6xl mt-14'>Principais Clientes</h1>
         <div className="relative mt-7 flex items-center justify-center  ">
      
         
